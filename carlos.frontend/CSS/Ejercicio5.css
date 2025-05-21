@@ -1,0 +1,55 @@
+.titulo{
+    color: white;
+    margin: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    
+}
+form input{
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 10px 10px;
+    border: 0;
+}
+
+form .boton{
+    background-color: rgba(0, 255, 115, 0.541);
+    width: 100px;
+}
+
+.def{
+    color: white;
+    margin: 40px 0;
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 40px;
+}
+
+.info{
+    background-color: rgba(0, 238, 255, 0.164);
+    border: solid rgb(50, 224, 255) 2px;
+}
+
+.negativo{
+    background-color: rgba(255, 0, 0, 0.164);
+    border: solid rgb(255, 58, 58) 2px;
+}
+
+.positivo{
+    background-color: rgba(0, 255, 55, 0.164);
+    border: solid rgb(74, 255, 50) 2px;
+}
+
+.cero{
+    background-color: rgba(133, 133, 133, 0.164);
+    border: solid rgb(163, 163, 163) 2px;
+}

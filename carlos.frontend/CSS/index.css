@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    flex: row;
+}
+
+p{
+    font-size: 40px;
+    margin: 80px;
+    color: white;
+    width: 40%;
+}
+
+div img{
+    width: 40%;
+    margin: 80px;
+    border-radius: 40px;
+}

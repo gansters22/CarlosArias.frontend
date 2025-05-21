@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(22, 33, 54);
+}
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    font-family: "arial narrow bold";
+    
+}
+
+menu a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgba(0, 0, 0, 0.007);
+}
+
+menu a:hover{
+    background-color: aqua;
+    color: black;
+    border: solid aquamarine 2px;
+    border-radius: 40px;
+}
+
+.titulo{
+    color: white;
+    margin: 40px;
+}

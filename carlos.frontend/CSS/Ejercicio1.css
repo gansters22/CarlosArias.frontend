@@ -1,0 +1,58 @@
+.titulo{
+    color: white;
+    margin: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    
+}
+form input{
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 10px 10px;
+    border: 0;
+}
+
+form .boton{
+    background-color: rgba(0, 255, 115, 0.541);
+    width: 100px;
+}
+
+
+table{
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+table tr{
+    background-color: rgba(127, 187, 255, 0.205);
+    height: 60px;
+}
+
+table tr:nth-child(2n){
+    background-color: rgba(0, 255, 76, 0.13);
+}
+table tr:nth-child(4n){
+    background-color: rgba(0, 217, 255, 0.144);
+}
+
+.info{
+    background-color: rgba(255, 0, 0, 0.164);
+    color: white;
+    margin: 40px 0;
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border: solid rgb(255, 58, 58) 2px;
+    border-radius: 40px;
+}
+
+
